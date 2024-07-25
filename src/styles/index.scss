@@ -1,4 +1,12 @@
 @import './variables.scss';
+@import './mixins.scss';
+@import './body.scss';
+@import './header.scss';
+@import './app.scss';
+@import './about.scss';
+@import './app.scss';
+@import './body-panel.scss';
+@import './contact.scss';
 
 html {
   scroll-behavior: smooth;

@@ -47,12 +47,14 @@
 
             input[type="submit"]{
                 @include btn-style($white-color, $blue-color);
-                width: 200px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 10px;
-                border: none;
+               &{
+                    width: 200px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px;
+                    border: none;
+               }
             }
             
             textarea {

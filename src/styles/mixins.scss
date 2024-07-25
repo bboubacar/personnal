@@ -4,8 +4,10 @@
     color: $text-color;
     background: $bg-color;
 
-    span.text {
-        display: inline;
+    span {
+        .text{
+            display: inline;
+        }
     }
 }
 
@@ -23,15 +25,17 @@
 }
 
 @mixin btn-style($text-color, $bg-color) {
-    font-size: 15px;
-    padding: 18px;
-    margin-bottom: 8px;
-    display:flex;
-    height: 50px;
-    font-weight: 600;
-    text-decoration: none;    
-    overflow: hidden;
-    transition: $transition-time;
-    cursor: pointer;
-    @include show-menu-text($text-color, $bg-color);
+    &{
+        font-size: 15px;
+        padding: 18px;
+        margin-bottom: 8px;
+        display:flex;
+        height: 50px;
+        font-weight: 600;
+        text-decoration: none;    
+        overflow: hidden;
+        transition: $transition-time;
+        cursor: pointer;
+        @include show-menu-text($text-color, $bg-color);
+    }
 }
