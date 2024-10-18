@@ -9,7 +9,7 @@ function Contact({ id }) {
     return (
         <article className="bcr-contact bcr-panel" id={id}>
             <div className="bcr-contact-form  bcr-panel-details">
-                <h1>Mail</h1>
+                <h1>Mail2</h1>
                 <Message />
             </div>
         </article>
